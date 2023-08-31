@@ -106,3 +106,10 @@
   console.log("numOne:" + numOne);
   console.log("numTwo: " + numTwo);
 })();
+
+(function () {
+  //   let sum = 9 + 12 / 3; // Equivalent to 9 + 4.
+  //   console.log("Ungrouped sum: " + sum);
+  let sum = (9 + 12) / 3; // Equivalent to 21 / 3.
+  console.log("Grouped sum: " + sum);
+})();
